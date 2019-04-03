@@ -3,4 +3,6 @@ then hit the list to see tabular for all genomes.
 the download button should be press and ganer the list including all version of genome and ftp services
 when it achieved,using perl to pick off ftp string into new txt,at where through below command line to download all genome.fna file
 $cat ftp.list |while read id; do wget -c -r -np -k -L -p  -nd -A.fna.gz $id;done
-ftp.lit composed of all ftp url
+comment:ftp.lit composed of all ftp url
+note:cat ftp.list |while read ftp ;do echo $ftp;done 
+ftp was variable,%ftp
